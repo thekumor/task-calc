@@ -1,0 +1,61 @@
+html{
+	background-color: #211c1d;
+	color: #C2D3CD;
+	font-family: "Alan Sans", 'Times New Roman';
+}
+
+h1{
+	text-align: center;
+	font-weight: 800;
+}
+
+table{
+	margin-left: auto;
+	margin-right: auto;
+	width: 40%;
+	padding: 2vh;
+}
+
+tbody {
+	background-color: #56494C;
+	text-align: left;
+}
+
+thead{
+	background-color: #847E89;
+	text-align: center;
+}
+
+th{
+	padding: 5px;
+}
+
+tr:hover{
+	background-color: #79686c;
+}
+
+th:hover{
+	background-color: #968186;
+}
+
+.bottom {
+	margin-left: auto;
+	margin-right: auto;
+	width: 20%;
+	margin-bottom: 2vh;
+}
+
+input[type=submit], input[type=button]{
+	cursor: pointer;
+	font-size: 1.5vh;
+}
+
+span[id=sum]{
+	text-decoration: underline;
+}
+
+footer {
+	padding-top: 1vh;
+	border-top: 2px solid white;
+	text-align: center;
+}
